@@ -49,6 +49,10 @@
         flex-direction: row;
         align-items: center;
 
+        .title {
+            max-width: 500px;
+        }
+
         &_description {
             margin-left: 100px;
             display: flex;

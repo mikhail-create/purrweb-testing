@@ -73,6 +73,10 @@
           align-items: center;
 }
 
+.features .integration .title {
+  max-width: 500px;
+}
+
 .features .integration_description {
   margin-left: 100px;
   display: -webkit-box;
