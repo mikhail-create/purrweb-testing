@@ -1,0 +1,123 @@
+.tips {
+  margin: 170px 176px 0 176px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.tips_card {
+  height: 310px;
+  width: 500px;
+  border-radius: 21.5px;
+  border: 2px solid rgba(255, 255, 255, 0.5);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: left;
+}
+
+.tips_card > span {
+  font-family: "NotoSansRegular";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 33px;
+  margin-left: 55px;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  border-bottom: 1px solid #fff;
+  cursor: pointer;
+}
+
+.tips_card > span:first-child {
+  width: 340px;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  margin-bottom: 30px;
+  font-family: "NotoSansBold";
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 41px;
+  border: none;
+  cursor: auto;
+}
+
+@media screen and (max-width: 390px) {
+  .tips {
+    margin: 70px 0 0 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .tips_card {
+    height: 200px;
+    width: 340px;
+    border-radius: 21.5px;
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    text-align: left;
+  }
+  .tips_card > span {
+    font-family: "NotoSansRegular";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 33px;
+    margin-left: 33px;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    border-bottom: 1px solid #fff;
+    cursor: pointer;
+  }
+  .tips_card > span:first-child {
+    font-family: "NotoSansBold";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 33px;
+    width: 258px;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    margin-bottom: 30px;
+    border: none;
+    cursor: auto;
+  }
+  .tips_card:first-child {
+    margin-bottom: 30px;
+  }
+}
+/*# sourceMappingURL=tips_cards.css.map */

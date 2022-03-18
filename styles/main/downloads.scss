@@ -1,0 +1,81 @@
+.downloads {
+    margin-top: 90px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    &_title {
+        font-family: "NotoSansBold";
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 33px;
+    }
+
+    &_buttons {
+        margin-top: -35px;
+        width: 580px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+
+        &__button {
+            cursor: pointer;
+
+            > img {
+                width: 260px;
+            }
+        }
+
+        &__button:hover {
+            transform: scale(1.1);
+            transition: 1s;
+        }
+    }
+}
+
+@media screen and (max-width: 390px) {
+    .downloads {
+        margin-top: 90px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        &_title {
+            font-family: "NotoSansBold";
+            font-size: 24px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 33px;
+        }
+
+        &_buttons {
+            margin-top: -35px;
+            width: 100vw;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-between;
+
+            &__button {
+                cursor: pointer;
+
+                > img {
+                    width: 185px;
+                }
+            }
+
+            &__button:nth-child(2) {
+                margin-top: -35px;
+            }
+
+            &__button:hover {
+                transform: scale(1.1);
+                transition: 1s;
+            }
+        }
+    }
+}

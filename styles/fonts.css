@@ -1,0 +1,84 @@
+@font-face{
+    font-family: "NotoSansBold";
+    src: url("../styles/fonts/NotoSans-Bold.ttf") format("truetype");
+    font-style: normal; 
+    font-weight: normal; 
+}
+
+@font-face{
+    font-family: "NotoSansBoldItallic";
+    src: url("../styles/fonts/NotoSans-BoldItalic.ttf") format("truetype");
+    font-style: normal; 
+    font-weight: normal; 
+}
+
+@font-face{
+    font-family: "NotoSansItalic";
+    src: url("../styles/fonts/NotoSans-Italic.ttf") format("truetype");
+    font-style: normal; 
+    font-weight: normal; 
+}
+
+@font-face{
+    font-family: "NotoSansRegular";
+    src: url("../styles/fonts/NotoSans-Regular.ttf") format("truetype");
+    font-style: normal; 
+    font-weight: normal; 
+}
+
+@font-face{
+    font-family: "MontserratBold";
+    src: url("../styles/fonts/Montserrat-Bold.ttf") format("truetype");
+    font-style: normal; 
+    font-weight: normal; 
+}
+
+@font-face{
+    font-family: "MontserratBoldItalic";
+    src: url("../styles/fonts/Montserrat-BoldItalic.ttf") format("truetype");
+    font-style: normal; 
+    font-weight: normal; 
+}
+
+@font-face{
+    font-family: "MontserratItalic";
+    src: url("../styles/fonts/Montserrat-Italic.ttf") format("truetype");
+    font-style: normal; 
+    font-weight: normal; 
+}
+
+@font-face{
+    font-family: "MontserratRegular";
+    src: url("../styles/fonts/Montserrat-Regular.ttf") format("truetype");
+    font-style: normal; 
+    font-weight: normal; 
+}
+
+
+@font-face{
+    font-family: "RobotoBold";
+    src: url("../styles/fonts/Roboto-Bold.ttf") format("truetype");
+    font-style: normal; 
+    font-weight: normal; 
+}
+
+@font-face{
+    font-family: "RobotoBoldItalic";
+    src: url("../styles/fonts/Roboto-BoldItalic.ttf") format("truetype");
+    font-style: normal; 
+    font-weight: normal; 
+}
+
+@font-face{
+    font-family: "RobotoItalic";
+    src: url("../styles/fonts/Roboto-Italic.ttf") format("truetype");
+    font-style: normal; 
+    font-weight: normal; 
+}
+
+@font-face{
+    font-family: "RobotoRegular";
+    src: url("../styles/fonts/Roboto-Regular.ttf") format("truetype");
+    font-style: normal; 
+    font-weight: normal; 
+}

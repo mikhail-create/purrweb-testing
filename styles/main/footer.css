@@ -1,0 +1,114 @@
+.footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 50px;
+  margin-left: 25px;
+  margin-right: 25px;
+}
+
+.footer__blur {
+  display: none;
+}
+
+.footer_location {
+  font-family: "NotoSansBold";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 25px;
+  letter-spacing: 0em;
+  text-align: left;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.footer_location > span {
+  margin-top: 15px;
+}
+
+.footer_links {
+  font-family: "NotoSansBold";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 25px;
+  letter-spacing: 0em;
+  text-align: right;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: 75px;
+}
+
+.footer_links a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.footer_links a:hover {
+  text-decoration: underline;
+}
+
+@media screen and (max-width: 390px) {
+  .footer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    margin-bottom: 50px;
+    margin-left: unset;
+    margin-right: unset;
+    text-align: center;
+  }
+  .footer__blur {
+    display: block;
+    width: 225px;
+    height: 225px;
+    position: absolute;
+    z-index: 1;
+    background: linear-gradient(12.08deg, #f101bf 2.82%, #0066ff 97.06%);
+    opacity: 0.8;
+    -webkit-filter: blur(138.347px);
+            filter: blur(138.347px);
+    -webkit-transform: rotate(5.78deg);
+            transform: rotate(5.78deg);
+  }
+  .footer_location {
+    margin-top: 45px;
+    text-align: unset;
+  }
+  .footer_location > span {
+    margin-top: 15px;
+  }
+  .footer_links {
+    margin-top: 45px;
+    text-align: unset;
+  }
+}
+/*# sourceMappingURL=footer.css.map */

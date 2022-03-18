@@ -1,0 +1,85 @@
+.mission {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin-right: 165px;
+}
+
+.mission_image > img {
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
+  width: 489px;
+}
+
+.mission_text {
+  padding-top: 245px;
+  width: 360px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: left;
+}
+
+.mission_text > span {
+  max-width: 315px;
+}
+
+.mission_text > span:first-child {
+  max-width: 360px;
+}
+
+@media screen and (max-width: 390px) {
+  .mission {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-right: unset;
+    margin-top: 110px;
+  }
+  .mission_image {
+    margin-top: 160px;
+  }
+  .mission_image > img {
+    -webkit-transform: unset;
+            transform: unset;
+    width: 174px;
+  }
+  .mission_text {
+    padding-top: unset;
+    width: 100%;
+    margin-left: 35px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    text-align: left;
+  }
+  .mission_text > span {
+    max-width: 315px;
+  }
+  .mission_text > span:first-child {
+    max-width: 360px;
+  }
+}
+/*# sourceMappingURL=mission.css.map */

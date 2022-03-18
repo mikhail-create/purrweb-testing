@@ -1,0 +1,520 @@
+.features {
+    background-image: url("../../images/club_bg.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 100%;
+
+    &_wrapper {
+        width: 100%;
+        height: 1060px;
+        background: linear-gradient(179.83deg, #000000 -3.1%, rgba(0, 0, 0, 0) 56.76%, #000000 83.92%);
+    }
+
+    &_verification {
+        width: 100%;
+        padding-top: 445px;
+        display: flex;
+        flex-direction: row;
+
+        &__preview {
+            display: flex;
+            flex-direction: row;
+
+            > img {
+                width: 332px;
+            }
+
+            > img:first-child {
+                margin-left: 100px;
+                margin-right: 50px;
+            }
+        }
+
+        &__description {
+            margin-left: 128px;
+            margin-top: 370px;
+            display: flex;
+            flex-direction: column;
+            text-align: left;
+
+            > span {
+                max-width: 315px;
+            }
+        }
+    }
+
+    .integration {
+        margin-top: 50px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+
+        &_description {
+            margin-left: 100px;
+            display: flex;
+            flex-direction: column;
+            text-align: left;
+
+            > span {
+                max-width: 395px;
+            }
+        }
+
+        &_preview {
+            margin-left: 25px;
+            margin-top: 175px;
+        }
+    }
+
+    .qrcode {
+        margin-top: 235px;
+        display: flex;
+        flex-direction: row;
+
+        > .djpad {
+            width: 810px;
+            height: 600px;
+            margin-left: -50px;
+            margin-bottom: 150px;
+            position: absolute;
+            background-image: linear-gradient(180deg, #000000 -3.1%, rgba(0, 0, 0, 0) 56.76%, #000000 83.92%),
+                url("../../images/dj_pad.png");
+            background-size: 100%;
+            z-index: -1;
+        }
+
+        > .cocktail {
+            width: 733px;
+            height: 610px;
+            margin-left: 700px;
+            margin-bottom: 250px;
+            background-image: url("../../images/coctail.png");
+            background-size: 100%;
+            position: absolute;
+            display: flex;
+            z-index: -1;
+        }
+
+        &_description {
+            margin-left: 195px;
+            padding-top: 527px;
+            display: flex;
+            flex-direction: column;
+
+            > span {
+                max-width: 315px;
+            }
+
+            &_links {
+                display: flex;
+                flex-direction: row;
+
+                .link_btn {
+                    cursor: pointer;
+                    > img {
+                        width: 163px;
+                    }
+                }
+
+                .link_btn:nth-child(1) {
+                    margin-right: 28px;
+                }
+
+                .link_btn:nth-child(2) {
+                    margin-top: 56px;
+                }
+
+                .link_btn:hover {
+                    transform: scale(1.1);
+                    transition: 1s;
+                }
+            }
+        }
+
+        .order_preview {
+            display: flex;
+            flex-direction: row;
+            align-items: flex-start;
+            margin-left: 80px;
+
+            > img:nth-child(1) {
+                padding-top: 220px;
+                width: 332px;
+            }
+
+            > img:nth-child(2) {
+                margin-left: 80px;
+                padding-top: 560px;
+                width: 332px;
+            }
+        }
+    }
+
+    .qrcode_show {
+        margin-top: 100px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        &_wrapper {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-image: url("../../images/icons/qr_bg.svg");
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: 100%;
+        }
+
+        .qrcode_image {
+            position: absolute;
+            width: 700px;
+            height: 700px;
+            border-radius: 700px;
+            background: linear-gradient(12deg, #f101bd 2.82%, #0066ff 97.06%);
+            opacity: 0.35;
+            filter: blur(311.569px);
+            z-index: -1;
+        }
+
+        > img {
+            width: 332px;
+        }
+
+        &_description {
+            margin-top: 80px;
+            width: calc(100% - 200px);
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-between;
+        }
+    }
+
+    .things {
+        margin-top: 190px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        &_description {
+            margin-left: 800px;
+            max-width: 421px;
+        }
+
+        &_titles {
+            img {
+                width: 868px;
+            }
+
+            .thing {
+                font-family: "RobotoRegular";
+                font-size: 23px;
+                font-weight: 700;
+                line-height: 27px;
+                position: absolute;
+                width: fit-content;
+                height: fit-content;
+                padding: 25px;
+                background: #000;
+                border: 0.76007px solid rgba(255, 255, 255, 0.5);
+                box-sizing: border-box;
+                border-radius: 18.5px;
+            }
+
+            .first {
+                margin-top: 359px;
+            }
+
+            .second {
+                margin-top: 205px;
+                margin-left: 475px;
+            }
+
+            .third {
+                margin-top: 730px;
+                margin-left: 200px;
+            }
+
+            .fourth {
+                margin-top: 640px;
+                margin-left: 695px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 390px) {
+    .features {
+        width: 100vw;
+        margin-top: 150px;
+
+        &_wrapper {
+            height: 300px;
+        }
+
+        &_verification {
+            width: 100%;
+            padding-top: unset;
+            display: flex;
+            flex-direction: column-reverse;
+            justify-content: center;
+            align-items: center;
+
+            &__preview {
+                display: flex;
+                flex-direction: column;
+
+                > img {
+                    width: 285px;
+                }
+
+                > img:first-child {
+                    margin-left: unset;
+                    margin-right: unset;
+                    margin-top: 70px;
+                }
+
+                > img:nth-child(2) {
+                    margin-top: 55px;
+                }
+            }
+
+            &__description {
+                margin-left: unset;
+                margin-top: 220px;
+
+                > span {
+                    max-width: 345px;
+                }
+            }
+        }
+
+        .integration {
+            margin-top: 1525px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            &_description {
+                margin-left: 15px;
+                display: flex;
+                flex-direction: column;
+                text-align: left;
+
+                > span {
+                    max-width: 390px;
+                }
+            }
+
+            &_preview {
+                margin-left: 0;
+                margin-top: 15px;
+
+                > img {
+                    width: 390px;
+                }
+            }
+        }
+
+        .qrcode {
+            margin-top: 50px;
+            display: flex;
+            flex-direction: column;
+
+            > .djpad {
+                width: 100vw;
+                height: 335px;
+                margin-left: unset;
+                margin-bottom: unset;
+                position: absolute;
+                background-image: linear-gradient(180deg, #000000 -3.1%, rgba(0, 0, 0, 0) 56.76%, #000000 83.92%),
+                    url("../../images/dj_pad.png");
+                background-size: 100%;
+                z-index: -1;
+            }
+
+            > .cocktail {
+                width: 90vw;
+                height: 300px;
+                margin-top: 600px;
+                margin-left: 10vw;
+                margin-bottom: unset;
+                background-image: url("../../images/coctail.png");
+                background-size: 100%;
+                position: absolute;
+                display: flex;
+                z-index: -1;
+            }
+
+            &_description {
+                margin-left: 15px;
+                margin-right: 15px;
+                padding-top: 225px;
+                display: flex;
+                flex-direction: column;
+
+                > span {
+                    max-width: 315px;
+                }
+
+                &_links {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+
+                    .link_btn {
+                        cursor: pointer;
+                        > img {
+                            width: 163px;
+                        }
+                    }
+
+                    .link_btn:nth-child(1) {
+                        margin-right: 0;
+                    }
+
+                    .link_btn:nth-child(2) {
+                        margin-top: -45px;
+                    }
+
+                    .link_btn:hover {
+                        transform: scale(1.1);
+                        transition: 1s;
+                    }
+                }
+            }
+
+            .order_preview {
+                display: flex;
+                flex-direction: column;
+                align-items: flex-start;
+                align-items: center;
+                margin-left: unset;
+
+                > img:nth-child(1) {
+                    padding-top: 320px;
+                    width: 280px;
+                }
+
+                > img:nth-child(2) {
+                    margin-left: unset;
+                    padding-top: 50px;
+                    width: 280px;
+                }
+            }
+        }
+
+        .qrcode_show {
+            margin-top: 100px;
+            width: 100%;
+            display: flex;
+            flex-direction: column-reverse;
+            justify-content: center;
+            align-items: center;
+
+            &_wrapper {
+                width: 100%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                background-image: url("../../images/icons/qr_bg.svg");
+                background-repeat: no-repeat;
+                background-position: center;
+                background-size: 100%;
+            }
+
+            .qrcode_image {
+                position: absolute;
+                width: 100vw;
+                height: 100vw;
+                border-radius: 100%;
+                background: linear-gradient(12deg, #f101bd 2.82%, #0066ff 97.06%);
+                opacity: 0.35;
+                filter: blur(311.569px);
+                z-index: -1;
+            }
+
+            img {
+                width: 180px;
+            }
+
+            &_description {
+                margin-top: unset;
+                margin-bottom: 20px;
+                width: calc(100vw - 30px);
+                margin-left: 15px;
+                margin-right: 15px;
+                display: flex;
+                flex-direction: column;
+                align-items: flex-start;
+                justify-content: space-between;
+
+                .hidden {
+                    display: none;
+                }
+            }
+        }
+
+        .things {
+            margin-top: 190px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+            &_description {
+                margin-left: 15px;
+                max-width: 100vw;
+                display: flex;
+                flex-direction: column;
+            }
+
+            &_titles {
+                margin-top: 135px;
+                img {
+                    width: 360px;
+                }
+
+                .thing {
+                    font-family: "RobotoRegular";
+                    font-size: 14px;
+                    font-weight: 500;
+                    line-height: 16px;
+                    position: absolute;
+                    width: fit-content;
+                    height: fit-content;
+                    padding: 13px;
+                    background: #000;
+                    border: 0.76007px solid rgba(255, 255, 255, 0.5);
+                    box-sizing: border-box;
+                    border-radius: 10px;
+                }
+
+                .first {
+                    margin-top: -75px;
+                    margin-left: 25px;
+                }
+
+                .second {
+                    margin-top: 15px;
+                    margin-left: 195px;
+                }
+
+                .third {
+                    margin-top: 320px;
+                    margin-left: 25px;
+                }
+
+                .fourth {
+                    margin-top: 410px;
+                    margin-left: 240px;
+                }
+            }
+        }
+    }
+}
