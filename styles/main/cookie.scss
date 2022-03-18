@@ -1,0 +1,76 @@
+.cookie {
+    position: relative;
+    display: flex;
+    font-family: "NotoSansRegular";
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 90px;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+    background-color: #212834;
+    z-index: 1;
+
+    &_container {
+        width: 1440px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+
+        &__message {
+            margin-left: 100px;
+            text-align: left;
+        }
+
+        &__button {
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 130px;
+            height: 50px;
+            background: rgba(255, 255, 255, 0.1);
+            border: 0.5px solid #ffffff;
+            border-radius: 6px;
+            margin-right: 45px;
+        }
+    }
+}
+
+@media screen and (max-width: 390px) {
+    .cookie {
+        margin-top: 1350px;
+        position: absolute;
+        display: flex;
+
+        &_container {
+            width: 100%;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+
+            &__message {
+                max-width: 220px;
+                margin-left: 15px;
+                text-align: left;
+            }
+
+            &__button {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                width: 90px;
+                height: 50px;
+                background: rgba(255, 255, 255, 0.1);
+                border: 0.5px solid #ffffff;
+                border-radius: 6px;
+                margin-right: 15px;
+            }
+        }
+    }
+}

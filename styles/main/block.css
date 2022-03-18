@@ -1,0 +1,35 @@
+.block {
+  height: 1000px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background: -webkit-gradient(linear, left bottom, left top, color-stop(6.8%, #000000), color-stop(51.62%, rgba(0, 0, 0, 0)), color-stop(97.38%, #000000));
+  background: linear-gradient(360deg, #000000 6.8%, rgba(0, 0, 0, 0) 51.62%, #000000 97.38%);
+}
+
+.block_background {
+  position: absolute;
+  min-width: 1440px;
+  height: 100%;
+  z-index: -1;
+  background-image: url("../../images/icons/notab.svg");
+  background-repeat: repeat;
+  background-position-x: -300px;
+}
+
+.block_image > img {
+  width: 860px;
+}
+
+@media screen and (max-width: 390px) {
+  .block {
+    display: none;
+  }
+}
+/*# sourceMappingURL=block.css.map */

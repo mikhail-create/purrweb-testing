@@ -1,0 +1,29 @@
+.block {
+    height: 1000px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(360deg, #000000 6.8%, rgba(0, 0, 0, 0) 51.62%, #000000 97.38%);
+
+    &_background {
+        position: absolute;
+        min-width: 1440px;
+        height: 100%;
+        z-index: -1;
+        background-image: url("../../images/icons/notab.svg");
+        background-repeat: repeat;
+        background-position-x: -300px;
+    }
+
+    &_image {
+        > img {
+            width: 860px;
+        }
+    }
+}
+
+@media screen and (max-width: 390px) {
+    .block {
+        display: none;
+    }
+}

@@ -54,7 +54,14 @@
             margin-right: 176px;
 
             .glow {
-                display: none;
+                display: block;
+                position: absolute;
+                width: 300px;
+                height: 300px;
+                background: rgba(250, 0, 255, 0.8);
+                filter: blur(120px);
+                transform: rotate(-90.69deg);
+                z-index: -1;
             }
 
             > img {
